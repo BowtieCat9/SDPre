@@ -14,4 +14,4 @@ public class Exercise13 {
 		boolean isNotWombat = !(notWombat.equals("wombat"));
 		System.out.println("You successfully DID NOT enter the word \"wombat\": " + isNotWombat);
 	}
-}
+} 
