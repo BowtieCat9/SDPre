@@ -7,18 +7,23 @@ public class SwitchExample {
 
 		switch (grade) {
 		case "A":
+		case "a":
 			System.out.println("Fantastic Job!");
 			break;
 		case "B":
+		case "b":
 			System.out.println("Good Job!");
 			break;
 		case "C":
-			System.out.println("mehh...");
+		case "c":
+			System.out.println("mehh...you're doing okay.");
 			break;
 		case "D":
+		case "d":
 			System.out.println("Please schedule a conference.");
 			break;
 		case "F":
+		case "f":
 			System.out.println("Start finishing homework and showing up to class");
 			break;
 		default:
